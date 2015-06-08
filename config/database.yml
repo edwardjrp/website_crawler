@@ -1,0 +1,17 @@
+#development:
+  adapter: "mysql2"
+  encoding: "utf8"
+  host: "10.211.55.2"
+  database: "openinvestigation"
+  username: "root"
+  password: "root"
+  socket: /tmp/mysql.sock
+
+
+#production:
+#  adapter: "mysql"
+#  host: "localhost"
+#  database: "saintpeter"
+#  username: "root"
+#  password: "r00t"
+

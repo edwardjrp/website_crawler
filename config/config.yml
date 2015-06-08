@@ -1,0 +1,13 @@
+environment: "production"
+    chdir: "/home/edward/updaternc_ondemand/"
+    address: "127.0.0.1"
+    user: "root"
+    group: "root"
+    port: 4567
+    pid: "/home/edward/updaternc_ondemand/thin.pid"
+    rackup: "/home/edward/updaternc_ondemand/config.ru"
+    log: "/home/edward/updaternc_ondemand/logs/thin.log"
+    max_conns: 1024
+    timeout: 30
+    max_persistent_conns: 512
+    daemonize: true
